@@ -4,53 +4,47 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-  }
   
-  .header__contact .list-style{
+  
+  & .list-style{
      margin-right: 50px;
   }
    
-  .header__contact .list-style:last-child {
+  & .list-style:last-child {
     margin-right: 0;
   }
   
-  .header__contact--mailto {
+  &--mailto {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: $secondary-text-color;
     transition: $main-transition;
+  
+  
+      &:hover,
+      &:focus {
+        color: $accent-color;
+        transition: $main-transition;
+      }
   }
   
-  .header__contact--mailto:hover,
-  .header__contact--mailto:focus {
-    color: $accent-color;
-    transition: $main-transition;
-  }
-  
-  .header__contact--call {
+  &--call {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: $secondary-text-color;
     transition: $main-transition;
-  }
   
-  .header__contact--call:hover,
-  .header__contact--call:focus {
-    color: $accent-color;
-    transition: $main-transition;
+      &:hover,
+      &:focus {
+        color: $accent-color;
+        transition: $main-transition;
+      }
   }
+}
   
   .header__contact--icon {
     margin-right: 10px;
     fill: currentColor;
-  }
-  
-  .header__contact--mailto:hover,
-  .header__contact--mailto:focus,
-  .header__contact--call:hover,
-  .header__contact--call:focus {
-    fill: $accent-color;
-    transition: $main-transition;
   }

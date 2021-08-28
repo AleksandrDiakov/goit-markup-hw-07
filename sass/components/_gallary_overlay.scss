@@ -14,11 +14,12 @@
       transform: translateY(100%);
       transition: $main-transition;
       opacity: 0;
-    }
     
-    .gallary__card:hover .gallary__overlay {
-      transform: translateY(0);
-      opacity: 1;
+    
+      .gallary__card:hover & {
+        transform: translateY(0);
+        opacity: 1;
+      }
     }
     
     .gallary__text {
@@ -37,12 +38,13 @@
         color: #ffffff;
         transition: $main-transition;
         opacity: 0;
-      }
+      
     
-    .gallary__card:hover .gallary__text {
-      transform: translateY(0);
-      opacity: 1;
-    } 
+      .gallary__card:hover & {
+        transform: translateY(0);
+        opacity: 1;
+      } 
+    }
     
     .gallary__name {
       padding: 20px 24px 20px 24px;
