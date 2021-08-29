@@ -1,8 +1,8 @@
-.footer__join {
+.page-footer__join {
   margin-left: 70px;
 }
   
-.footer__title {
+.page-footer__title {
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
@@ -12,11 +12,11 @@
   color: $hero-text-color;
 }
   
-.footer__social {
+.page-footer__social {
   display: flex;
   justify-content: space-between;
     
-  &--item {
+  &-item {
     list-style: none;
     margin-right: 10px; 
   
@@ -25,7 +25,7 @@
     }
   }
   
-  &--link {
+  &-link {
     display: flex;
     align-items: center;
     justify-content: center;

@@ -1,4 +1,4 @@
-.header__menu {
+.page-header__menu {
     display: flex;
     align-items: center;
   
@@ -11,7 +11,7 @@
         }
     }
   
-    & &--link {
+    & &-link {
       display: flex;
       color: $primary-text-color;
       font-weight: 500;

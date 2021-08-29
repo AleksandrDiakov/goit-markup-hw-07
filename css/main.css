@@ -38,7 +38,7 @@ header {
   padding-bottom: 25px;
 }
 
-.header {
+.page-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50,13 +50,13 @@ header {
           align-items: center;
 }
 
-.header__navigation {
+.page-header__navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.header__logo {
+.page-header__logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,16 +71,16 @@ header {
   text-decoration: none;
 }
 
-.header__logo--web {
+.page-header__logo--web {
   color: #2196f3;
 }
 
-.header__logo--studio {
+.page-header__logo--studio {
   color: #212121;
   margin-right: 93px;
 }
 
-.header__menu {
+.page-header__menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,15 +89,15 @@ header {
           align-items: center;
 }
 
-.header__menu .list-style {
+.page-header__menu .list-style {
   margin-right: 50px;
 }
 
-.header__menu .list-style:last-child {
+.page-header__menu .list-style:last-child {
   margin-right: 0;
 }
 
-.header__menu .header__menu--link {
+.page-header__menu .page-header__menu-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,18 +111,18 @@ header {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__menu .header__menu--link:hover, .header__menu .header__menu--link:focus {
+.page-header__menu .page-header__menu-link:hover, .page-header__menu .page-header__menu-link:focus {
   color: #2196f3;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__menu .header__menu--link.current {
+.page-header__menu .page-header__menu-link.current {
   color: #2196f3;
   position: relative;
 }
 
-.header__menu .header__menu--link.current::after {
+.page-header__menu .page-header__menu-link.current::after {
   content: "";
   position: absolute;
   bottom: -33.6px;
@@ -132,7 +132,7 @@ header {
   background-color: #2196f3;
 }
 
-.header__contact {
+.page-header__contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,15 +142,15 @@ header {
   letter-spacing: 0.02em;
 }
 
-.header__contact .list-style {
+.page-header__contact .list-style {
   margin-right: 50px;
 }
 
-.header__contact .list-style:last-child {
+.page-header__contact .list-style:last-child {
   margin-right: 0;
 }
 
-.header__contact--mailto {
+.page-header__contact--mailto {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -163,13 +163,13 @@ header {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__contact--mailto:hover, .header__contact--mailto:focus {
+.page-header__contact--mailto:hover, .page-header__contact--mailto:focus {
   color: #2196f3;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__contact--call {
+.page-header__contact--call {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,13 +182,13 @@ header {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__contact--call:hover, .header__contact--call:focus {
+.page-header__contact--call:hover, .page-header__contact--call:focus {
   color: #2196f3;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__contact--icon {
+.page-header__contact--icon {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -997,13 +997,13 @@ footer {
   padding: 60px 0;
 }
 
-.footer {
+.page-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.footer__logo {
+.page-footer__logo {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -1012,15 +1012,15 @@ footer {
   text-decoration: none;
 }
 
-.footer__logo--web {
+.page-footer__logo--web {
   color: #2196f3;
 }
 
-.footer__logo--studio {
+.page-footer__logo--studio {
   color: #ffffff;
 }
 
-.footer__address {
+.page-footer__address {
   margin-top: 20px;
   font-size: 14px;
   font-style: normal;
@@ -1029,36 +1029,36 @@ footer {
   color: #ffffff;
 }
 
-.footer__contact {
+.page-footer__contact {
   margin-top: 9px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.footer__contact--item {
+.page-footer__contact .page-footer__contact-item {
   margin-top: 9px;
   list-style: none;
 }
 
-.footer__contact--link {
+.page-footer__contact .page-footer__contact-link {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__contact--link:hover, .footer__contact--link:focus {
+.page-footer__contact .page-footer__contact-link:hover, .page-footer__contact .page-footer__contact-link:focus {
   color: #2196f3;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__join {
+.page-footer__join {
   margin-left: 70px;
 }
 
-.footer__title {
+.page-footer__title {
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
@@ -1068,7 +1068,7 @@ footer {
   color: #ffffff;
 }
 
-.footer__social {
+.page-footer__social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1077,16 +1077,16 @@ footer {
           justify-content: space-between;
 }
 
-.footer__social--item {
+.page-footer__social-item {
   list-style: none;
   margin-right: 10px;
 }
 
-.footer__social--item:last-child {
+.page-footer__social-item:last-child {
   margin-right: 0;
 }
 
-.footer__social--link {
+.page-footer__social-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1105,17 +1105,17 @@ footer {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__social--link:hover, .footer__social--link:focus {
+.page-footer__social-link:hover, .page-footer__social-link:focus {
   background: #2196f3;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__signature {
+.page-footer__signature {
   margin-left: 93px;
 }
 
-.footer__signature--field {
+.page-footer__signature-field {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1124,7 +1124,7 @@ footer {
           align-items: center;
 }
 
-.footer__signature--email {
+.page-footer__signature-email {
   display: block;
   width: 358px;
   height: 50px;
@@ -1137,13 +1137,13 @@ footer {
   background-color: #2F303A;
 }
 
-.footer__button {
+.page-footer__button {
   position: relative;
   padding: 0 62px 0 29px;
   margin: 0;
 }
 
-.footer__icon--send {
+.page-footer__icon-send {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);

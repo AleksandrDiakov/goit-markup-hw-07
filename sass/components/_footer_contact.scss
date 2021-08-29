@@ -1,4 +1,4 @@
-.footer__address {
+.page-footer__address {
   margin-top: 20px;
   font-size: 14px;
   font-style: normal;
@@ -7,18 +7,18 @@
   color: $hero-text-color;
 }
   
-.footer__contact {
+.page-footer__contact {
   margin-top: 9px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   
-  &--item {
+  .page-footer__contact-item {
     margin-top: 9px;
     list-style: none;
   }
   
-  &--link {
+  .page-footer__contact-link {
     text-decoration: none;
     color: $contact-text-footer;
     transition: $main-transition;
