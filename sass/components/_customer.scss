@@ -26,6 +26,13 @@
     border-radius: 4px;
     fill: #AFB1B8;
     transition: $main-transition;
+  
+    &:hover,
+    &:focus {
+      border: 1px solid $accent-color;
+      fill: $accent-color;
+      transition: $main-transition;
+    }
   }
 
   &__logo{
@@ -33,13 +40,6 @@
 
     &:last-child {
       margin-right: 0;
-    }
-    
-    &:hover,
-    &:focus {
-      border: 1px solid $accent-color;
-      fill: $accent-color;
-      transition: $main-transition;
     }
   }
 }
